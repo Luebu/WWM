@@ -28,7 +28,7 @@ public class Wwm{
     }
 		ArrayList<Frage> fragenliste = ReadFromFile.readFragen("fragen.txt");
 	
-			fragenliste.get(1).fragestellung();
+			fragenliste.get(0).fragestellung();
 			
 	
 

@@ -14,11 +14,6 @@ public abstract class Joker{
 	  }
   }
 
-	public abstract void use();    
-
-
-
-
-
+/*	public abstract void use();     */
 
 }

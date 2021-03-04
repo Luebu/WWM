@@ -19,11 +19,11 @@ public class Frage{
 	public void fragestellung(){
 		System.out.println("Frage: "+quiz);
 		System.out.print("");
-		System.out.println("Antwortmöglichkeiten:\n");
+		System.out.println("Antwortmöglichkeiten:");
 		randomanswer.add(0,falsch1);
 		randomanswer.add(1,falsch2);
 	  randomanswer.add(wuerfel.nextInt(2),falsch3);
-		randomanswer.add(wuerfel.nextint(3),richtigeAntwort);
+		randomanswer.add(wuerfel.nextInt(3),richtigeAntwort);
 		System.out.println(randomanswer);
 	}
 
